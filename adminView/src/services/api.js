@@ -29,4 +29,8 @@ export const getClients = () => {
   return api.get('/clientes');
 };
 
+export const getUsers = () => {
+  return api.get('/usuarios');
+}
+
 export default api;
